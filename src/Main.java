@@ -9,7 +9,7 @@ public class Main {
 //        tomyy.talk();
 //        egu.talk();
 
-        Dog dog = new Dog("Tommy","black");
+        Dog dog = new Dog("Tommy","black","Golden Retriever");
         Eagle egu = new Eagle("egu","brown");
         System.out.println(dog.name);
         System.out.println(egu.name);
@@ -17,11 +17,12 @@ public class Main {
         egu.eat("egg");
         dog.talk("hello");
         egu.talk("hi");
-
+        System.out.println();
         System.out.println(dog);
         System.out.println(egu);
-
+        System.out.println();
         dog.display();
+        System.out.println();
         egu.display();
     }
 }

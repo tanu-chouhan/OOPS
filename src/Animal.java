@@ -22,15 +22,12 @@ public class Animal {
         System.out.println(this.name+" said : "+massage);
     }
     public void display(){
-        System.out.println("=================================");
         System.out.println(getClass());
         System.out.println("Name: "+this.name);
         System.out.println("colour: "+this.colour);
         System.out.println("legs: "+this.noOfLegs);
         System.out.println("Does fly: "+this.doesFly);
         System.out.println("Has Tail: "+this.hasTail);
-
-        System.out.println("=================================");
     }
 
     @Override
